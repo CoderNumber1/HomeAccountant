@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[LineItem]
+(
+	[Id] INT IDENTITY(1,1) NOT NULL,
+	CONSTRAINT PK_LineItem PRIMARY KEY(Id)
+)
